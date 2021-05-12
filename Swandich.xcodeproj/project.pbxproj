@@ -3,27 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830050C02562BE3A0007A632 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 830050BF2562BE3A0007A632 /* KingfisherSwiftUI */; };
+		8300BEC4255C0A02008FCFF5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300BEC3255C0A02008FCFF5 /* TestView.swift */; };
+		8300BEC6255C41D4008FCFF5 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300BEC5255C41D4008FCFF5 /* Habit.swift */; };
+		8300BEC8255C426B008FCFF5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300BEC7255C426B008FCFF5 /* Data.swift */; };
+		8300BECA255C43E7008FCFF5 /* HabitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300BEC9255C43E7008FCFF5 /* HabitCellView.swift */; };
+		8300BECC255C445F008FCFF5 /* UserInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300BECB255C445F008FCFF5 /* UserInformationView.swift */; };
+		8307AA172577E52C004A7B22 /* Test_2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA162577E52C004A7B22 /* Test_2_View.swift */; };
+		8307AA1A2577F366004A7B22 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA192577F366004A7B22 /* HabitDetailView.swift */; };
+		8307AA202577FA57004A7B22 /* HabitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA1F2577FA57004A7B22 /* HabitHeaderView.swift */; };
+		8307AA232577FE7C004A7B22 /* HabitDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA222577FE7C004A7B22 /* HabitDescriptionView.swift */; };
+		8307AA27257802DF004A7B22 /* TimeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA26257802DF004A7B22 /* TimeCellView.swift */; };
+		8307AA2A2578041B004A7B22 /* SpentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA292578041B004A7B22 /* SpentTime.swift */; };
+		8307AA2D25780AB7004A7B22 /* TimeConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA2C25780AB7004A7B22 /* TimeConfigurationView.swift */; };
+		8307AA3025781636004A7B22 /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA2F25781636004A7B22 /* StandardButtonView.swift */; };
+		8307AA3325781954004A7B22 /* TestView_ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA3225781954004A7B22 /* TestView_ProfilePictureView.swift */; };
+		8307AA3B2579D50B004A7B22 /* StatisticsHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307AA3A2579D50B004A7B22 /* StatisticsHabitView.swift */; };
+		830F1CA02562E927009F4170 /* HabitCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F1C9F2562E927009F4170 /* HabitCreationView.swift */; };
+		832C92392562F84800D91E90 /* HabitGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C92382562F84800D91E90 /* HabitGridView.swift */; };
+		832C923C2563013A00D91E90 /* NewHabitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C923B2563013A00D91E90 /* NewHabitConfig.swift */; };
 		83565BE1255B017E005E3B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BE0255B017E005E3B5A /* AppDelegate.swift */; };
 		83565BE3255B017E005E3B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BE2255B017E005E3B5A /* SceneDelegate.swift */; };
-		83565BE5255B017E005E3B5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BE4255B017E005E3B5A /* ContentView.swift */; };
+		83565BE5255B017E005E3B5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BE4255B017E005E3B5A /* HomeView.swift */; };
 		83565BE7255B0181005E3B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83565BE6255B0181005E3B5A /* Assets.xcassets */; };
 		83565BEA255B0181005E3B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83565BE9255B0181005E3B5A /* Preview Assets.xcassets */; };
 		83565BED255B0181005E3B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83565BEB255B0181005E3B5A /* LaunchScreen.storyboard */; };
+		83565BF5255B7B29005E3B5A /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BF4255B7B29005E3B5A /* LikeButtonView.swift */; };
+		83565BF7255B7BED005E3B5A /* DescriptionLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83565BF6255B7BED005E3B5A /* DescriptionLanguageView.swift */; };
+		838AEEB7255ED4F900975D72 /* ButtonAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838AEEB6255ED4F900975D72 /* ButtonAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8300BEC3255C0A02008FCFF5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8300BEC5255C41D4008FCFF5 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		8300BEC7255C426B008FCFF5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8300BEC9255C43E7008FCFF5 /* HabitCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCellView.swift; sourceTree = "<group>"; };
+		8300BECB255C445F008FCFF5 /* UserInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationView.swift; sourceTree = "<group>"; };
+		8307AA162577E52C004A7B22 /* Test_2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_2_View.swift; sourceTree = "<group>"; };
+		8307AA192577F366004A7B22 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		8307AA1F2577FA57004A7B22 /* HabitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitHeaderView.swift; sourceTree = "<group>"; };
+		8307AA222577FE7C004A7B22 /* HabitDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDescriptionView.swift; sourceTree = "<group>"; };
+		8307AA26257802DF004A7B22 /* TimeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCellView.swift; sourceTree = "<group>"; };
+		8307AA292578041B004A7B22 /* SpentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentTime.swift; sourceTree = "<group>"; };
+		8307AA2C25780AB7004A7B22 /* TimeConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConfigurationView.swift; sourceTree = "<group>"; };
+		8307AA2F25781636004A7B22 /* StandardButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
+		8307AA3225781954004A7B22 /* TestView_ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView_ProfilePictureView.swift; sourceTree = "<group>"; };
+		8307AA3A2579D50B004A7B22 /* StatisticsHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsHabitView.swift; sourceTree = "<group>"; };
+		830F1C9F2562E927009F4170 /* HabitCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCreationView.swift; sourceTree = "<group>"; };
+		832C92382562F84800D91E90 /* HabitGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGridView.swift; sourceTree = "<group>"; };
+		832C923B2563013A00D91E90 /* NewHabitConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitConfig.swift; sourceTree = "<group>"; };
 		83565BDD255B017E005E3B5A /* Swandich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swandich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83565BE0255B017E005E3B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83565BE2255B017E005E3B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83565BE4255B017E005E3B5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83565BE4255B017E005E3B5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		83565BE6255B0181005E3B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83565BE9255B0181005E3B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83565BEC255B0181005E3B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83565BEE255B0181005E3B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83565BF4255B7B29005E3B5A /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
+		83565BF6255B7BED005E3B5A /* DescriptionLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLanguageView.swift; sourceTree = "<group>"; };
+		838AEEB6255ED4F900975D72 /* ButtonAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +74,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830050C02562BE3A0007A632 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830050C12562C47B0007A632 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8307AA392579D4E5004A7B22 /* Statistics */,
+				8307AA1C2577F47E004A7B22 /* HabitDetail */,
+				830050C32562C4AA0007A632 /* Home */,
+				830F1C9E2562E911009F4170 /* Habit */,
+				830050C42562C4AE0007A632 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		830050C22562C4820007A632 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8300BEC5255C41D4008FCFF5 /* Habit.swift */,
+				832C923B2563013A00D91E90 /* NewHabitConfig.swift */,
+				8307AA292578041B004A7B22 /* SpentTime.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		830050C32562C4AA0007A632 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83565BE4255B017E005E3B5A /* HomeView.swift */,
+				8300BEC9255C43E7008FCFF5 /* HabitCellView.swift */,
+				838AEEB6255ED4F900975D72 /* ButtonAddView.swift */,
+				83565BF6255B7BED005E3B5A /* DescriptionLanguageView.swift */,
+				8300BECB255C445F008FCFF5 /* UserInformationView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		830050C42562C4AE0007A632 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				83565BF4255B7B29005E3B5A /* LikeButtonView.swift */,
+				8307AA2F25781636004A7B22 /* StandardButtonView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8307AA1C2577F47E004A7B22 /* HabitDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8307AA192577F366004A7B22 /* HabitDetailView.swift */,
+				8307AA1F2577FA57004A7B22 /* HabitHeaderView.swift */,
+				8307AA222577FE7C004A7B22 /* HabitDescriptionView.swift */,
+				8307AA26257802DF004A7B22 /* TimeCellView.swift */,
+				8307AA2C25780AB7004A7B22 /* TimeConfigurationView.swift */,
+			);
+			path = HabitDetail;
+			sourceTree = "<group>";
+		};
+		8307AA392579D4E5004A7B22 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				8307AA3A2579D50B004A7B22 /* StatisticsHabitView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		830F1C9E2562E911009F4170 /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+				830F1C9F2562E927009F4170 /* HabitCreationView.swift */,
+				832C92382562F84800D91E90 /* HabitGridView.swift */,
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
 		83565BD4255B017E005E3B5A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +172,18 @@
 		83565BDF255B017E005E3B5A /* Swandich */ = {
 			isa = PBXGroup;
 			children = (
+				830050C12562C47B0007A632 /* Views */,
+				830050C22562C4820007A632 /* Entities */,
 				83565BE0255B017E005E3B5A /* AppDelegate.swift */,
 				83565BE2255B017E005E3B5A /* SceneDelegate.swift */,
-				83565BE4255B017E005E3B5A /* ContentView.swift */,
+				8300BEC3255C0A02008FCFF5 /* TestView.swift */,
+				8300BEC7255C426B008FCFF5 /* Data.swift */,
 				83565BE6255B0181005E3B5A /* Assets.xcassets */,
 				83565BEB255B0181005E3B5A /* LaunchScreen.storyboard */,
 				83565BEE255B0181005E3B5A /* Info.plist */,
 				83565BE8255B0181005E3B5A /* Preview Content */,
+				8307AA162577E52C004A7B22 /* Test_2_View.swift */,
+				8307AA3225781954004A7B22 /* TestView_ProfilePictureView.swift */,
 			);
 			path = Swandich;
 			sourceTree = "<group>";
@@ -91,6 +212,9 @@
 			dependencies = (
 			);
 			name = Swandich;
+			packageProductDependencies = (
+				830050BF2562BE3A0007A632 /* KingfisherSwiftUI */,
+			);
 			productName = Swandich;
 			productReference = 83565BDD255B017E005E3B5A /* Swandich.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Filipe Ferreira";
 				TargetAttributes = {
 					83565BDC255B017E005E3B5A = {
@@ -119,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 83565BD4255B017E005E3B5A;
+			packageReferences = (
+				830050BE2562BE3A0007A632 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 83565BDE255B017E005E3B5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +273,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8307AA27257802DF004A7B22 /* TimeCellView.swift in Sources */,
+				8300BECA255C43E7008FCFF5 /* HabitCellView.swift in Sources */,
+				8300BEC4255C0A02008FCFF5 /* TestView.swift in Sources */,
+				8307AA2A2578041B004A7B22 /* SpentTime.swift in Sources */,
+				8307AA202577FA57004A7B22 /* HabitHeaderView.swift in Sources */,
+				8307AA3025781636004A7B22 /* StandardButtonView.swift in Sources */,
 				83565BE1255B017E005E3B5A /* AppDelegate.swift in Sources */,
 				83565BE3255B017E005E3B5A /* SceneDelegate.swift in Sources */,
-				83565BE5255B017E005E3B5A /* ContentView.swift in Sources */,
+				8300BEC6255C41D4008FCFF5 /* Habit.swift in Sources */,
+				83565BF7255B7BED005E3B5A /* DescriptionLanguageView.swift in Sources */,
+				8307AA3B2579D50B004A7B22 /* StatisticsHabitView.swift in Sources */,
+				8307AA1A2577F366004A7B22 /* HabitDetailView.swift in Sources */,
+				83565BE5255B017E005E3B5A /* HomeView.swift in Sources */,
+				832C923C2563013A00D91E90 /* NewHabitConfig.swift in Sources */,
+				83565BF5255B7B29005E3B5A /* LikeButtonView.swift in Sources */,
+				838AEEB7255ED4F900975D72 /* ButtonAddView.swift in Sources */,
+				8300BECC255C445F008FCFF5 /* UserInformationView.swift in Sources */,
+				830F1CA02562E927009F4170 /* HabitCreationView.swift in Sources */,
+				8307AA3325781954004A7B22 /* TestView_ProfilePictureView.swift in Sources */,
+				8307AA232577FE7C004A7B22 /* HabitDescriptionView.swift in Sources */,
+				8307AA172577E52C004A7B22 /* Test_2_View.swift in Sources */,
+				8300BEC8255C426B008FCFF5 /* Data.swift in Sources */,
+				832C92392562F84800D91E90 /* HabitGridView.swift in Sources */,
+				8307AA2D25780AB7004A7B22 /* TimeConfigurationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +340,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -200,6 +349,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -216,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +402,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,16 +437,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Swandich/Preview Content\"";
+				DEVELOPMENT_TEAM = K9RKD6HBB9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Swandich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = filipesferreira.com.Swandich;
+				PRODUCT_BUNDLE_IDENTIFIER = filipesferreira.com.Sandwich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,16 +457,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Swandich/Preview Content\"";
+				DEVELOPMENT_TEAM = K9RKD6HBB9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Swandich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = filipesferreira.com.Swandich;
+				PRODUCT_BUNDLE_IDENTIFIER = filipesferreira.com.Sandwich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,7 +481,7 @@
 				83565BF0255B0181005E3B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83565BF1255B0181005E3B5A /* Build configuration list for PBXNativeTarget "Swandich" */ = {
 			isa = XCConfigurationList;
@@ -337,9 +490,28 @@
 				83565BF3255B0181005E3B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		830050BE2562BE3A0007A632 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		830050BF2562BE3A0007A632 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 830050BE2562BE3A0007A632 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83565BD5255B017E005E3B5A /* Project object */;
 }
